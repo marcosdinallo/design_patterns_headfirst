@@ -1,5 +1,8 @@
 package com.dinallo.designpatterns.into.duck;
 
+import lombok.Setter;
+
+@Setter
 public abstract class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
