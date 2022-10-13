@@ -1,4 +1,4 @@
-package com.dinallo.designpatterns.into.duck;
+package com.dinallo.designpatterns.intro.duck;
 
 import lombok.Setter;
 

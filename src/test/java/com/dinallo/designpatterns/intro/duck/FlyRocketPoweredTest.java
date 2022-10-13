@@ -1,4 +1,4 @@
-package com.dinallo.designpatterns.into.duck;
+package com.dinallo.designpatterns.intro.duck;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
