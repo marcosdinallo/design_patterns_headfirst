@@ -7,7 +7,7 @@ import java.util.List;
 
 public class WeatherData implements Subject{
 
-    private List<Observer> observers;
+    private final List<Observer> observers;
     private float temperature;
     private float humidity;
     private float pressure;
@@ -40,6 +40,5 @@ public class WeatherData implements Subject{
         this.humidity = humidity;
         this.pressure = pressure;
         measurementsChanged();
-
     }
 }
