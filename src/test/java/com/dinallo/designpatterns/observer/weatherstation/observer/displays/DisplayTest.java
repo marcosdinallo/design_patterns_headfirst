@@ -23,6 +23,7 @@ class DisplayTest {
         new CurrentConditionsDisplay(weatherData);
         new StatisticsDisplay(weatherData);
         new ForecastDisplay(weatherData);
+        new HeatIndexDisplay(weatherData);
     }
 
     @Test
